@@ -1,20 +1,20 @@
-# Handwriting Recognition using OpenCV, Keras , TensorFlow and ResNet Architecture
+Project Overview:
+This project focuses on developing an Optical Character Recognition (OCR) model using deep learning techniques. Two datasets were utilized for training:
 
-## Background of the project:-<br>
-Utilized two datasets :<br>
-1.The standard MNIST 0-9 dataset by LeCun et al.<br>
-2. The Kaggle A-Z dataset by Sachin Patel, based on the NIST Special Database 19<br>
+MNIST 0-9 Dataset by LeCun et al.: A standard dataset consisting of handwritten digits.
+Kaggle A-Z Dataset by Sachin Patel: Based on the NIST Special Database 19, this dataset contains handwritten characters A-Z.
+The OCR model was trained using Keras, TensorFlow, and the ResNet (Residual Neural Network) architecture.
 
-Trained the OCR model using Keras, TensorFlow, and deep learning architecture, ResNet.<br>
+Overview of Libraries and Platforms Used:
+OpenCV: Employed for image pre-processing, which involved enhancing image quality by removing noise and improving contrast between handwritten text and the background.
 
-## About different libraries and platforms used:-<br>
-Used OpenCV for image pre-processing (improve the image quality by removing noise and enhancing the contrast between the handwritten text and the background).<br>
+Keras: A high-level neural networks API built on TensorFlow. Keras provides pre-built layers that can be easily combined for efficient implementation of neural networks. Written in Python, it simplifies the process of building and experimenting with deep learning models.
 
-Keras is a high-level neural networks API built on top of TensorFlow, used Keras to provide a range of pre-built layers that can are easily combined.It is written in Python and is used to make the implementation of neural networks easy<br>
+TensorFlow: Used for its ability to handle large datasets and scale models across multiple devices. TensorFlow facilitates the implementation of best practices for data automation, model tracking, performance monitoring, and model retraining.
 
-TensorFlow can handle large datasets and is used to scale models across multiple devices, making it easier to train large models.<br>
-The TensorFlow platform helps you implement best practices for data automation, model tracking, performance monitoring, and model retraining.<br>
-ResNet uses a particular block called a residual block that allows the model to learn features from images, making it possible to create much deeper networks without encountering problems with vanishing gradients.<br>
+ResNet Architecture: Implemented ResNet, known for its use of residual blocks. These blocks enable the model to learn features from images, allowing the creation of deeper networks without encountering issues such as vanishing gradients.
 
-For downloading a_z_handwritten_data.csv using link :-<br>
-https://www.kaggle.com/datasets/sachinpatel21/az-handwritten-alphabets-in-csv-format and paste the csv file in the root directory.<br>
+Dataset Information:
+To access the "a_z_handwritten_data.csv" dataset, you can download it from this Kaggle link, https://www.kaggle.com/datasets/sachinpatel21/az-handwritten-alphabets-in-csv-format and ensure that the CSV file is placed in the project's root directory.
+
+This project aims to showcase the integration of OpenCV, Keras, TensorFlow, and ResNet architecture for efficient handwriting recognition.
